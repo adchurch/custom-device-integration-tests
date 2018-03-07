@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="System definition.xsd">
 	<MD5Checksum />
-	<Version Major="2015" Minor="1" Fix="0" Build="0" />
+	<Version Major="2017" Minor="0" Fix="0" Build="0" />
 	<Content>Definition</Content>
-	<Root Name="Base Project" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
+	<Root Name="Scan Engine CD Test Project" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
 		<Description />
 		<Properties>
 			<Property Name="Name">
-				<String>Base Project</String>
+				<String>Scan Engine CD Test Project</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.1</String>
+				<String>1.0.0.16</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
 			</Property>
 			<Property Name="Creation Date">
-				<Double>3602688737.3044176</Double>
+				<Double>3602758512.9674821</Double>
 			</Property>
 		</Properties>
 		<Errors />
@@ -28,10 +28,10 @@
 				<Description />
 				<Properties>
 					<Property Name="OS">
-						<String>Windows</String>
+						<String>Linux_32_ARM</String>
 					</Property>
 					<Property Name="IP Address">
-						<String>localhost</String>
+						<String>10.1.128.107</String>
 					</Property>
 					<Property Name="Control Loop Processor">
 						<I32>-2</I32>
@@ -97,7 +97,7 @@
 						<Double>15</Double>
 					</Property>
 					<Property Name="FPGAScanInterfaceMode">
-						<U16>0</U16>
+						<U16>2</U16>
 					</Property>
 					<Property Name="Timing Source Settings">
 						<U16>0</U16>
@@ -176,11 +176,1100 @@
 							<Errors />
 						</Section>
 					</Section>
+					<Section Name="SLSC" TypeGUID="3ea8ee87-daf4-4abc-a6e6-9c54a9452824">
+						<Description />
+						<Properties />
+						<Errors />
+					</Section>
 				</Section>
 				<Section Name="Custom Devices" TypeGUID="03D3BB79-1485-13A6-5605EB7AFD7405AC">
 					<Description />
 					<Properties />
 					<Errors />
+					<Section Name="Scan Engine and EtherCAT" TypeGUID="A04A67D4-9B64-052B-A031-6B05377B9B10">
+						<Description />
+						<Properties>
+							<Property Name="CD Status">
+								<U32>1</U32>
+							</Property>
+							<Property Name="Driver VI Exec Mode">
+								<U32>1</U32>
+							</Property>
+							<Property Name="Driver VI Path_0">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\Linux_32_ARM\Scan Engine RT Driver.vi">
+									<Version>4.3.1</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine RT Driver.vi</RTDestination>
+									<SupportedTarget>Linux_32_ARM</SupportedTarget>
+									<MD5>377434149f75a2e87af2a061ed0d2838</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Driver VI Path_1">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\Linux_x64\Scan Engine RT Driver.vi">
+									<Version>4.3.1</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine RT Driver.vi</RTDestination>
+									<SupportedTarget>Linux_x64</SupportedTarget>
+									<MD5>fcb74755e3fc341874e7115de7018684</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Driver VI Path_2">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\VxWorks\Scan Engine RT Driver.vi">
+									<Version>4.3.1</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine RT Driver.vi</RTDestination>
+									<SupportedTarget>VxWorks</SupportedTarget>
+									<MD5>702ba662bedbb35d88cc6b3490c344f9</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Driver VI Path_3">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\PharLap\Scan Engine RT Driver.vi">
+									<Version>4.3.1</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine RT Driver.vi</RTDestination>
+									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
+									<MD5>3883dfa6aeb35267aa826c8486ee01c1</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Version">
+								<String>4.4.1</String>
+							</Property>
+							<Property Name="Timing Source Init VI_0">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\Linux_32_ARM\Scan Engine Timing Source.vi">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RTDestination>
+									<SupportedTarget>Linux_32_ARM</SupportedTarget>
+									<MD5>665dafc6e7f3080500bd2a0c086e5766</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Timing Source Init VI_1">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\Linux_x64\Scan Engine Timing Source.vi">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RTDestination>
+									<SupportedTarget>Linux_x64</SupportedTarget>
+									<MD5>13e57ded4383a8f9062f34e357c006a8</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Timing Source Init VI_2">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\VxWorks\Scan Engine Timing Source.vi">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RTDestination>
+									<SupportedTarget>VxWorks</SupportedTarget>
+									<MD5>a07dfa53e22346ede53fc07030190bdd</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Timing Source Init VI_3">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\PharLap\Scan Engine Timing Source.vi">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RTDestination>
+									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
+									<MD5>925d02f224063e96e376d22b00b3c8c2</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Timing Source Init VI_4">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\PharLap\Scan Engine Timing Source.vi">
+									<Version />
+									<ForceDownload>true</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine Timing Source.vi</RTDestination>
+									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
+									<MD5>925d02f224063e96e376d22b00b3c8c2</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_1">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\PharLap\Scan Engine - RT.llb">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine - RT.llb</RTDestination>
+									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
+									<MD5>93abebf7365e267b8e9cf7241481f53d</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_2">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\VxWorks\Scan Engine - RT.llb">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine - RT.llb</RTDestination>
+									<SupportedTarget>VxWorks</SupportedTarget>
+									<MD5>4c82c6fa8c932d7daae6c65bbc5d38f6</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_3">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\Linux_x64\Scan Engine - RT.llb">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine - RT.llb</RTDestination>
+									<SupportedTarget>Linux_x64</SupportedTarget>
+									<MD5>1d16857314515b19967b53dc0b13be15</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_4">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\Linux_32_ARM\Scan Engine - RT.llb">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Scan Engine - RT.llb</RTDestination>
+									<SupportedTarget>Linux_32_ARM</SupportedTarget>
+									<MD5>83f73539073d923da25c4ba3a216a9bc</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_5">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\PharLap\Modules.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Modules.lvlibp</RTDestination>
+									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
+									<MD5>a4b56487ae21d675a8375b9463186e6f</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_6">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\VxWorks\Modules.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Modules.lvlibp</RTDestination>
+									<SupportedTarget>VxWorks</SupportedTarget>
+									<MD5>29a9858588e625ff729d51da136ada47</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_7">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\Linux_x64\Modules.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Modules.lvlibp</RTDestination>
+									<SupportedTarget>Linux_x64</SupportedTarget>
+									<MD5>c05953f9493a85b9621d5ce0fab27841</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_8">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\Linux_32_ARM\Modules.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\Modules.lvlibp</RTDestination>
+									<SupportedTarget>Linux_32_ARM</SupportedTarget>
+									<MD5>eac34fb6bcd77087994240e969c22b89</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_9">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\PharLap\FXP.llb">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\FXP.llb</RTDestination>
+									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
+									<MD5>db0d62f1cbc2eb0639772c0e7ed4008a</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_10">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\VxWorks\FXP.llb">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\FXP.llb</RTDestination>
+									<SupportedTarget>VxWorks</SupportedTarget>
+									<MD5>8773d30f9da67b01e27c27a6b01feb17</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_11">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\Linux_x64\FXP.llb">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\FXP.llb</RTDestination>
+									<SupportedTarget>Linux_x64</SupportedTarget>
+									<MD5>741a23863d36588a005268b413c1a97c</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_12">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Scan Engine\Linux_32_ARM\FXP.llb">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Scan Engine\FXP.llb</RTDestination>
+									<SupportedTarget>Linux_32_ARM</SupportedTarget>
+									<MD5>6d099896bd6f24b39f88d3189a63850e</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="user.CD.Async Decimation">
+								<U16>1</U16>
+							</Property>
+							<Property Name="user.CD.FPGALoadDelay">
+								<U16>30</U16>
+							</Property>
+						</Properties>
+						<Errors />
+						<Section Name="Status" TypeGUID="03D3BB89-1485-13A6-56005DE6430FF8B7">
+							<Description />
+							<Properties />
+							<Errors />
+							<Channel Name="Scan Mode State" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description />
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Async Loop Duration" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="us" BitFields="1">
+								<Description />
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Async Loop Late Count" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description />
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="EtherCAT Scan Late Count" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description />
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+						</Section>
+						<Section Name="Command" TypeGUID="03D3BB89-1485-13A6-56005DE6430FF8B7">
+							<Description />
+							<Properties />
+							<Errors />
+							<Channel Name="Reconfigure EtherCAT Modules" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="3">
+								<Description />
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+						</Section>
+						<Section Name="Local Chassis" TypeGUID="E829C44F-D204-78F7-F536-2C86E8FAC5FB">
+							<Description />
+							<Properties>
+								<Property Name="user.CD.# Slots">
+									<I32>8</I32>
+								</Property>
+							</Properties>
+							<Errors />
+							<Section Name="Slot1 (NI 9401)" TypeGUID="A466E035-6C67-FF94-A582-AF548F5C2F28">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Module Class">
+										<BinaryString>AAAAAx0OTW9kdWxlcy5sdmxpYnAMOTQwMS5sdmNsYXNzAAAAAAEAAAAAAAIAAQAAAAAAAwABAAAAAAAUAAAAFQAiAAAAAQAAAAAIAAAAAAABAAAAAAAAAboAAAAIAAIAAAAAAAAAgAAAAAgAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryString>
+									</Property>
+								</Properties>
+								<Errors />
+								<Channel Name="DIO 0" TypeGUID="F233E90F-ECCA-EF6E-8EEB-159F82DA778F" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>0</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="DIO 1" TypeGUID="F233E90F-ECCA-EF6E-8EEB-159F82DA778F" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>1</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="DIO 2" TypeGUID="F233E90F-ECCA-EF6E-8EEB-159F82DA778F" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>2</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="DIO 3" TypeGUID="F233E90F-ECCA-EF6E-8EEB-159F82DA778F" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>3</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="DIO 4" TypeGUID="F233E90F-ECCA-EF6E-8EEB-159F82DA778F" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>4</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="DIO 5" TypeGUID="F233E90F-ECCA-EF6E-8EEB-159F82DA778F" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>5</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="DIO 6" TypeGUID="F233E90F-ECCA-EF6E-8EEB-159F82DA778F" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>6</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="DIO 7" TypeGUID="F233E90F-ECCA-EF6E-8EEB-159F82DA778F" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>7</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+							</Section>
+							<Section Name="Slot2 (NI 9401)" TypeGUID="A466E035-6C67-FF94-A582-AF548F5C2F28">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Module Class">
+										<BinaryString>AAAAAx0OTW9kdWxlcy5sdmxpYnAMOTQwMS5sdmNsYXNzAAAAAAEAAAAAAAIAAQAAAAAAAwABAAAAAAAUAAAAFQAiAAAAAgAAAAAIAAAAAAABAAAAAAAAAboAAAAIAAIAAAAAAAAAgAAAAAgAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryString>
+									</Property>
+								</Properties>
+								<Errors />
+								<Channel Name="DIO 0" TypeGUID="F233E90F-ECCA-EF6E-8EEB-159F82DA778F" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>0</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="DIO 1" TypeGUID="F233E90F-ECCA-EF6E-8EEB-159F82DA778F" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>1</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="DIO 2" TypeGUID="F233E90F-ECCA-EF6E-8EEB-159F82DA778F" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>2</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="DIO 3" TypeGUID="F233E90F-ECCA-EF6E-8EEB-159F82DA778F" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>3</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="DIO 4" TypeGUID="F233E90F-ECCA-EF6E-8EEB-159F82DA778F" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>4</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="DIO 5" TypeGUID="F233E90F-ECCA-EF6E-8EEB-159F82DA778F" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>5</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="DIO 6" TypeGUID="F233E90F-ECCA-EF6E-8EEB-159F82DA778F" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>6</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="DIO 7" TypeGUID="F233E90F-ECCA-EF6E-8EEB-159F82DA778F" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>7</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+							</Section>
+							<Section Name="Slot3 (NI 9206)" TypeGUID="A466E035-6C67-FF94-A582-AF548F5C2F28">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Module Class">
+										<BinaryString>AAAAAh0OTW9kdWxlcy5sdmxpYnAMOTIwNS5sdmNsYXNzAAAAAAEAAAAAAAAAAQAAAAAAFAAAABYABAAAAAMAAAAAIAAAAAAAAAAAAAFWAAAAAA==</BinaryString>
+									</Property>
+								</Properties>
+								<Errors />
+								<Channel Name="AI 0" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>0</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 1" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>1</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 2" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>2</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 3" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>3</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 4" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>4</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 5" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>5</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 6" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>6</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 7" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>7</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 8" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>8</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 9" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>9</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 10" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>10</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 11" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>11</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 12" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>12</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 13" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>13</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 14" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>14</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 15" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>15</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 16" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>16</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 17" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>17</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 18" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>18</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 19" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>19</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 20" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>20</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 21" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>21</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 22" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>22</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 23" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>23</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 24" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>24</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 25" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>25</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 26" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>26</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 27" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>27</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 28" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>28</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 29" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>29</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 30" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>30</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 31" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="V" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>31</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+							</Section>
+							<Section Name="Slot4 (NI 9263)" TypeGUID="A466E035-6C67-FF94-A582-AF548F5C2F28">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Module Class">
+										<BinaryString>AAAAASMOTW9kdWxlcy5sdmxpYnASUlNJIE1vZHVsZS5sdmNsYXNzAAABAAAAAAAUAAAAFgAdAAAABAAAAAAAAAAABAAAAAAAAVY=</BinaryString>
+									</Property>
+								</Properties>
+								<Errors />
+								<Channel Name="AO 0" TypeGUID="A613CB09-4F09-9982-AF75-BF47F7A4882F" RowDim="1" ColDim="1" Units="V" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>0</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AO 1" TypeGUID="A613CB09-4F09-9982-AF75-BF47F7A4882F" RowDim="1" ColDim="1" Units="V" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>1</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AO 2" TypeGUID="A613CB09-4F09-9982-AF75-BF47F7A4882F" RowDim="1" ColDim="1" Units="V" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>2</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AO 3" TypeGUID="A613CB09-4F09-9982-AF75-BF47F7A4882F" RowDim="1" ColDim="1" Units="V" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>3</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+							</Section>
+							<Section Name="Slot5 (NI 9203)" TypeGUID="A466E035-6C67-FF94-A582-AF548F5C2F28">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Module Class">
+										<BinaryString>AAAAAh0OTW9kdWxlcy5sdmxpYnAMOTIwMy5sdmNsYXNzAAAAAAEAAAAAAAAAAQAAAAAAFAAAABYAAgAAAAUAAAAACAAAAAAAAAAAAAFBAAAAAA==</BinaryString>
+									</Property>
+								</Properties>
+								<Errors />
+								<Channel Name="AI 0" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="A" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>0</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 1" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="A" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>1</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 2" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="A" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>2</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 3" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="A" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>3</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 4" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="A" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>4</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 5" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="A" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>5</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 6" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="A" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>6</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="AI 7" TypeGUID="7D1F352D-C320-52BF-1ACF-10488F36F94D" RowDim="1" ColDim="1" Units="A" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Chan #">
+											<I32>7</I32>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+							</Section>
+							<Section Name="Slot6 (Empty)" TypeGUID="41F294B5-009B-733F-41B9-7972E3D57FD3">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Module Class">
+										<BinaryString>AAAAASMOTW9kdWxlcy5sdmxpYnASUlNJIE1vZHVsZS5sdmNsYXNzAAABAAAAAAAUAAAAFQAAAAAABgAAAAAAAAAAAAAAAAAAAA==</BinaryString>
+									</Property>
+								</Properties>
+								<Errors />
+							</Section>
+							<Section Name="Slot7 (Empty)" TypeGUID="41F294B5-009B-733F-41B9-7972E3D57FD3">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Module Class">
+										<BinaryString>AAAAASMOTW9kdWxlcy5sdmxpYnASUlNJIE1vZHVsZS5sdmNsYXNzAAABAAAAAAAUAAAAFQAAAAAABwAAAAAAAAAAAAAAAAAAAA==</BinaryString>
+									</Property>
+								</Properties>
+								<Errors />
+							</Section>
+							<Section Name="Slot8 (Empty)" TypeGUID="41F294B5-009B-733F-41B9-7972E3D57FD3">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Module Class">
+										<BinaryString>AAAAASMOTW9kdWxlcy5sdmxpYnASUlNJIE1vZHVsZS5sdmNsYXNzAAABAAAAAAAUAAAAFQAAAAAACAAAAAAAAAAAAAAAAAAAAA==</BinaryString>
+									</Property>
+								</Properties>
+								<Errors />
+							</Section>
+							<Section Name="User Variables" TypeGUID="0244C2CA-486B-E148-C1E2-82323B844A49">
+								<Description>A CompactRIO chassis can run a custom FPGA personality created with LabVIEW FPGA. Use this page to import the user variables of the custom personality to NI VeriStand.
+
+User variable types supported include:
+U32, U16, U8, I32, I16, I8, Boolean, and FXP.
+
+Note: The only supported FXP UDVs are those  with word lengths up to 32 bits, and integer word lengths between -32 and +32.</Description>
+								<Properties>
+									<Property Name="user.CD.Bitfile Path - Host">
+										<String />
+									</Property>
+									<Property Name="user.CD.FPGA Target">
+										<BinaryString />
+									</Property>
+									<Property Name="user.CD.FPGA Sig">
+										<BinaryString />
+									</Property>
+									<Property Name="user.CD.Bitfile Path - Target">
+										<String />
+									</Property>
+								</Properties>
+								<Errors />
+							</Section>
+						</Section>
+					</Section>
 				</Section>
 				<Section Name="Simulation Models" TypeGUID="03D3B937-1485-13A6-5600F2871E269F9A">
 					<Description />

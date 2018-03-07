@@ -9,7 +9,7 @@
 			<OpenDocument ActiveDocument="True" ActiveEditor="NationalInstruments.VeriStand.UIManager.Screen.Designer.NewScreenControl" Envoy="13" />
 		</OpenDocumentManager>
 	</UserSettingsDefinition>
-	<UserSettingsDefinition Envoy="13" Name=":DefaultTarget:Base\ Project\.nivsscr">
+	<UserSettingsDefinition Envoy="13" Name=":DefaultTarget:Scan\ Engine\ CD\ Test\ Project\.nivsscr">
 		<ScrollAndZoomSettingCache Envoy="13" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
 			<ScrollAndZoomEditor EditorName="NewScreenControl" ScrollHorizontalOffset="0" ScrollVerticalOffset="0" Zoom="1" />
 		</ScrollAndZoomSettingCache>

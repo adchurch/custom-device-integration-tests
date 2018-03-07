@@ -3,11 +3,11 @@
 	<MD5Checksum />
 	<Version Major="2015" Minor="0" Fix="0" Build="0" />
 	<Content>Definition</Content>
-	<Root Name="Base Project" TypeGUID="d9313aae-3554-45e5-93f3-86454275d4f2">
+	<Root Name="Scan Engine CD Test Project" TypeGUID="d9313aae-3554-45e5-93f3-86454275d4f2">
 		<Description />
 		<Properties>
 			<Property Name="Name">
-				<String>Base Project</String>
+				<String>Scan Engine CD Test Project</String>
 			</Property>
 			<Property Name="Version">
 				<String>1.0.0.0</String>
@@ -16,7 +16,7 @@
 				<String />
 			</Property>
 			<Property Name="Creation Date">
-				<Double>3602688738.1524158</Double>
+				<Double>3602758513.8834805</Double>
 			</Property>
 		</Properties>
 		<Errors />
@@ -24,15 +24,15 @@
 			<Description />
 			<Properties />
 			<Errors />
-			<Section Name="Base Project.nivssdf" TypeGUID="3a41ca74-36ec-4aff-9219-9d05c8f91208">
+			<Section Name="Scan Engine CD Test Project.nivssdf" TypeGUID="3a41ca74-36ec-4aff-9219-9d05c8f91208">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<DependentFile Type="Relative" Path="Base Project.nivssdf">
+						<DependentFile Type="Relative" Path="Scan Engine CD Test Project.nivssdf">
 							<Version />
 							<RTDestination />
 							<SupportedTarget />
-							<MD5>160147840682957ca44148d9db4217f2</MD5>
+							<MD5>b685651bb4730c52a128166f1f01a3c8</MD5>
 						</DependentFile>
 					</Property>
 				</Properties>
@@ -62,11 +62,11 @@
 				</Property>
 			</Properties>
 			<Errors />
-			<Section Name="Base Project.nivsscreen" TypeGUID="cdfadfe0-c84a-4268-a677-4f2f3525465e">
+			<Section Name="Scan Engine CD Test Project.nivsscreen" TypeGUID="cdfadfe0-c84a-4268-a677-4f2f3525465e">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<DependentFile Type="Relative" Path="Base Project.nivsscreen">
+						<DependentFile Type="Relative" Path="Scan Engine CD Test Project.nivsscreen">
 							<Version />
 							<RTDestination />
 							<SupportedTarget />
@@ -76,15 +76,15 @@
 				</Properties>
 				<Errors />
 			</Section>
-			<Section Name="Base Project.nivsprj" TypeGUID="53735ba2-ebbf-4751-b2f2-531478d45887">
+			<Section Name="Scan Engine CD Test Project.nivsprj" TypeGUID="53735ba2-ebbf-4751-b2f2-531478d45887">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<DependentFile Type="Relative" Path="Base Project.nivsprj">
+						<DependentFile Type="Relative" Path="Scan Engine CD Test Project.nivsprj">
 							<Version />
 							<RTDestination />
 							<SupportedTarget />
-							<MD5>5816cbe8a77dd6a21ee6ceae90ac8079</MD5>
+							<MD5>7af4a74218ce0f96edbdee10e1251777</MD5>
 						</DependentFile>
 					</Property>
 				</Properties>
@@ -128,11 +128,11 @@
 			<Description />
 			<Properties />
 			<Errors />
-			<Section Name="Base Project.nivscf" TypeGUID="1E715E4F-5EB7-4d75-99E5-F7A3D858E07E">
+			<Section Name="Scan Engine CD Test Project.nivscf" TypeGUID="1E715E4F-5EB7-4d75-99E5-F7A3D858E07E">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<DependentFile Type="Relative" Path="Base Project.nivscf">
+						<DependentFile Type="Relative" Path="Scan Engine CD Test Project.nivscf">
 							<Version />
 							<RTDestination />
 							<SupportedTarget />
@@ -192,38 +192,47 @@
 			<Description />
 			<Properties />
 			<Errors />
-			<Section Name="Base Project.nivssdf" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+			<Section Name="Scan Engine CD Test Project.nivssdf" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Users\admin\Documents\github\adchurch\custom-device-integration-tests\Source\VeriStand Project\Base Project\Base Project.nivssdf</String>
+						<String>C:\Users\admin\Documents\github\adchurch\custom-device-integration-tests\Source\VeriStand Project\Scan Engine CD Test Project.nivssdf</String>
 					</Property>
 				</Properties>
 				<Errors />
 			</Section>
-			<Section Name="Base Project.nivsscreen" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+			<Section Name="Scan Engine CD Test Project.nivsscreen" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Users\admin\Documents\github\adchurch\custom-device-integration-tests\Source\VeriStand Project\Base Project\Base Project.nivsscreen</String>
+						<String>C:\Users\admin\Documents\github\adchurch\custom-device-integration-tests\Source\VeriStand Project\Scan Engine CD Test Project.nivsscreen</String>
 					</Property>
 				</Properties>
 				<Errors />
 			</Section>
-			<Section Name="Base Project.nivsprj" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+			<Section Name="Scan Engine CD Test Project.nivsprj" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Users\admin\Documents\github\adchurch\custom-device-integration-tests\Source\VeriStand Project\Base Project\Base Project.nivsprj</String>
+						<String>C:\Users\admin\Documents\github\adchurch\custom-device-integration-tests\Source\VeriStand Project\Scan Engine CD Test Project.nivsprj</String>
 					</Property>
 				</Properties>
 				<Errors />
 			</Section>
-			<Section Name="Base Project.nivscf" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+			<Section Name="Scan Engine CD Test Project.nivscf" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Users\admin\Documents\github\adchurch\custom-device-integration-tests\Source\VeriStand Project\Base Project\Base Project.nivscf</String>
+						<String>C:\Users\admin\Documents\github\adchurch\custom-device-integration-tests\Source\VeriStand Project\Scan Engine CD Test Project.nivscf</String>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+			<Section Name="Scan Engine RT Driver.vi (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+				<Description />
+				<Properties>
+					<Property Name="Path">
+						<String>C:\Users\Public\Documents\National Instruments\NI VeriStand 2017\Custom Devices\Scan Engine\Linux_32_ARM\Scan Engine RT Driver.vi</String>
 					</Property>
 				</Properties>
 				<Errors />

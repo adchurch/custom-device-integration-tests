@@ -21,17 +21,17 @@
 				<GatewayDefinition IPAddress="localhost" xmlns="http://www.ni.com/UIManager.Design" />
 			</EmbeddedDefinitionReference>
 			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,SdfFilePath,EmbeddedReference" Id="6" ModelDefinitionType="SdfFilePath" Name="SdfPath" Reparentable="False">
-				<SdfFilePath SdfPath="Base Project.nivssdf" xmlns="http://www.ni.com/UIManager.Design" />
+				<SdfFilePath SdfPath="Scan Engine CD Test Project.nivssdf" xmlns="http://www.ni.com/UIManager.Design" />
 			</EmbeddedDefinitionReference>
-			<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.VeriStand.UIManager.Screen.SourceModel.ScreenModel,SourceFileReference" Id="13" ModelDefinitionType="NationalInstruments.VeriStand.UIManager.Screen.SourceModel.ScreenModel" Name="Base\ Project\.nivsscr" StoragePath="Base Project.nivsscr" />
-			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType,ProjectItemDragDropDefaultService,EmbeddedReference" Id="14" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="Base\ Project\.nivssdf">
+			<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.VeriStand.UIManager.Screen.SourceModel.ScreenModel,SourceFileReference" Id="13" ModelDefinitionType="NationalInstruments.VeriStand.UIManager.Screen.SourceModel.ScreenModel" Name="Scan\ Engine\ CD\ Test\ Project\.nivsscr" StoragePath="Scan Engine CD Test Project.nivsscr" />
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType,ProjectItemDragDropDefaultService,EmbeddedReference" Id="14" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="Scan\ Engine\ CD\ Test\ Project\.nivssdf">
 				<ExternalFile>
-					<p.StoragePath>Base Project.nivssdf</p.StoragePath>
+					<p.StoragePath>Scan Engine CD Test Project.nivssdf</p.StoragePath>
 				</ExternalFile>
 			</EmbeddedDefinitionReference>
 		</NameScopingEnvoy>
 	</Project>
-	<ProjectInformation ProjectIconFilename="screen.png" Title="Base Project" xmlns="http://www.ni.com/PlatformFramework">
+	<ProjectInformation ProjectIconFilename="screen.png" Title="Scan Engine CD Test Project" xmlns="http://www.ni.com/PlatformFramework">
 		<p.Description></p.Description>
 	</ProjectInformation>
 </SourceFile>
