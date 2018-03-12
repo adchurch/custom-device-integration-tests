@@ -10,7 +10,7 @@
 				<String>Scan Engine CD Test Project</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.16</String>
+				<String>1.0.0.20</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -457,11 +457,11 @@
 								<Description />
 								<Properties>
 									<Property Name="user.CD.Module Class">
-										<BinaryString>AAAAAx0OTW9kdWxlcy5sdmxpYnAMOTQwMS5sdmNsYXNzAAAAAAEAAAAAAAIAAQAAAAAAAwABAAAAAAAUAAAAFQAiAAAAAQAAAAAIAAAAAAABAAAAAAAAAboAAAAIAAIAAAAAAAAAgAAAAAgAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryString>
+										<BinaryString>AAAAAx0OTW9kdWxlcy5sdmxpYnAMOTQwMS5sdmNsYXNzAAAAAAEAAAAAAAIAAQAAAAAAAwABAAAAAAAUAAAAFQAiAAAAAQAAAAAAAAAACAABAAAAAAAAAboAAAAIAAIAAAAAAAAAgAAAAAgAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAEAAAAB</BinaryString>
 									</Property>
 								</Properties>
 								<Errors />
-								<Channel Name="DIO 0" TypeGUID="F233E90F-ECCA-EF6E-8EEB-159F82DA778F" RowDim="1" ColDim="1" Units="" BitFields="13">
+								<Channel Name="DIO 0" TypeGUID="F43DA51B-9C6C-5797-56DC-ED47295D1D2E" RowDim="1" ColDim="1" Units="" BitFields="15">
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Chan #">
@@ -473,7 +473,7 @@
 										<Elem>0</Elem>
 									</DefaultValue>
 								</Channel>
-								<Channel Name="DIO 1" TypeGUID="F233E90F-ECCA-EF6E-8EEB-159F82DA778F" RowDim="1" ColDim="1" Units="" BitFields="13">
+								<Channel Name="DIO 1" TypeGUID="F43DA51B-9C6C-5797-56DC-ED47295D1D2E" RowDim="1" ColDim="1" Units="" BitFields="15">
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Chan #">
@@ -485,7 +485,7 @@
 										<Elem>0</Elem>
 									</DefaultValue>
 								</Channel>
-								<Channel Name="DIO 2" TypeGUID="F233E90F-ECCA-EF6E-8EEB-159F82DA778F" RowDim="1" ColDim="1" Units="" BitFields="13">
+								<Channel Name="DIO 2" TypeGUID="F43DA51B-9C6C-5797-56DC-ED47295D1D2E" RowDim="1" ColDim="1" Units="" BitFields="15">
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Chan #">
@@ -497,7 +497,7 @@
 										<Elem>0</Elem>
 									</DefaultValue>
 								</Channel>
-								<Channel Name="DIO 3" TypeGUID="F233E90F-ECCA-EF6E-8EEB-159F82DA778F" RowDim="1" ColDim="1" Units="" BitFields="13">
+								<Channel Name="DIO 3" TypeGUID="F43DA51B-9C6C-5797-56DC-ED47295D1D2E" RowDim="1" ColDim="1" Units="" BitFields="15">
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Chan #">
@@ -509,7 +509,7 @@
 										<Elem>0</Elem>
 									</DefaultValue>
 								</Channel>
-								<Channel Name="DIO 4" TypeGUID="F233E90F-ECCA-EF6E-8EEB-159F82DA778F" RowDim="1" ColDim="1" Units="" BitFields="13">
+								<Channel Name="DIO 4" TypeGUID="F43DA51B-9C6C-5797-56DC-ED47295D1D2E" RowDim="1" ColDim="1" Units="" BitFields="15">
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Chan #">
@@ -521,7 +521,7 @@
 										<Elem>0</Elem>
 									</DefaultValue>
 								</Channel>
-								<Channel Name="DIO 5" TypeGUID="F233E90F-ECCA-EF6E-8EEB-159F82DA778F" RowDim="1" ColDim="1" Units="" BitFields="13">
+								<Channel Name="DIO 5" TypeGUID="F43DA51B-9C6C-5797-56DC-ED47295D1D2E" RowDim="1" ColDim="1" Units="" BitFields="15">
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Chan #">
@@ -533,7 +533,7 @@
 										<Elem>0</Elem>
 									</DefaultValue>
 								</Channel>
-								<Channel Name="DIO 6" TypeGUID="F233E90F-ECCA-EF6E-8EEB-159F82DA778F" RowDim="1" ColDim="1" Units="" BitFields="13">
+								<Channel Name="DIO 6" TypeGUID="F43DA51B-9C6C-5797-56DC-ED47295D1D2E" RowDim="1" ColDim="1" Units="" BitFields="15">
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Chan #">
@@ -545,7 +545,7 @@
 										<Elem>0</Elem>
 									</DefaultValue>
 								</Channel>
-								<Channel Name="DIO 7" TypeGUID="F233E90F-ECCA-EF6E-8EEB-159F82DA778F" RowDim="1" ColDim="1" Units="" BitFields="13">
+								<Channel Name="DIO 7" TypeGUID="F43DA51B-9C6C-5797-56DC-ED47295D1D2E" RowDim="1" ColDim="1" Units="" BitFields="15">
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Chan #">
@@ -2265,6 +2265,52 @@ Note: The only supported FXP UDVs are those  with word lengths up to 32 bits, an
 				</Property>
 			</Properties>
 			<Errors />
+			<Section Name="Analog Loopback" TypeGUID="A579F6FF-5680-1F22-249C-2C499E16CDB8">
+				<Description />
+				<Properties />
+				<Errors />
+				<Alias Name="AnalogOutput" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/Local Chassis/Slot4 (NI 9263)/AO 0" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="AnalogInput" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/Local Chassis/Slot3 (NI 9206)/AI 0" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+			</Section>
+			<Section Name="Digital Loopback" TypeGUID="A579F6FF-5680-1F22-249C-2C499E16CDB8">
+				<Description />
+				<Properties />
+				<Errors />
+				<Alias Name="DiscreteDigitalOutput" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/Local Chassis/Slot1 (NI 9401)/DIO 0" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="DiscreteDigitalInput" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Scan Engine and EtherCAT/Local Chassis/Slot2 (NI 9401)/DIO 0" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+			</Section>
 		</Section>
 		<Section Name="Scales" TypeGUID="032c8aec-ce5b-6d40-06c5-5703bbc7ccee">
 			<Description />

@@ -1,11 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="10E7D9D521429A4AEC393915E5AFF5BB" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="CB3740FBCB99964A496F06B2245F9A9D" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="4.0.0.28240" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PlatformFramework" Version="4.5.0.49153" />
-		<ParsableNamespace AssemblyFileVersion="4.0.0.28240" FeatureSetName="VeriStand UI Manager Screen" MinimumParsableVersion="4.0.0.1" MinimumSemanticallyEquivalentVersion="4.0.0.1" Name="http://www.ni.com/VeriStand.UIManager.ScreenModel" Version="4.0.0.1" />
-		<ApplicationVersionInfo Build="4.0.0.28240" Name="VeriStand.UIManager" Version="4.0.0.28240" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.3430" FeatureSetName="Configuration Based Software Core" Name="http://www.ni.com/ConfigurationBasedSoftware.Core" OldestCompatibleVersion="4.8.0.1" Version="4.8.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.3430" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="4.8.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.3430" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.0.0.49154" Version="5.0.0.49154" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.3430" FeatureSetName="VeriStand UI Manager Screen" Name="http://www.ni.com/VeriStand.UIManager.ScreenModel" OldestCompatibleVersion="4.8.0.2" Version="4.8.0.49152" />
+		<ApplicationVersionInfo Build="5.0.1.3430" Name="VeriStand.UIManager" Version="5.0.1.3430" />
 	</SourceModelFeatureSet>
-	<Screen Id="2" Version="4.0.0.0" xmlns="http://www.ni.com/VeriStand.UIManager.ScreenModel">
-		<ScreenSurface Height="[float]1600" Id="1" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000" />
+	<Screen Id="2" Version="5.0.1.0" xmlns="http://www.ni.com/VeriStand.UIManager.ScreenModel">
+		<ScreenSurface Height="[float]1600" Id="1" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000" xmlns="http://www.ni.com/ConfigurationBasedSoftware.Core">
+			<ChannelNumericText Channel="[string]Aliases/Analog Loopback/AnalogOutput" Height="[float]24" Id="3" Label="[UIModel]4" Left="[float]152" MinHeight="[float]24" TabIndex="[int]0" Top="[float]103" UnitAnnotation="[string]V" Value="[double]1" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" />
+			<Label Height="[float]16" Id="4" LabelOwner="[UIModel]3" Left="[float]152" TabIndex="[int]1" Text="[string]AnalogOutput" Top="[float]83" Width="[float]76" xmlns="http://www.ni.com/PanelCommon" />
+			<ChannelNumericText Channel="[string]Aliases/Analog Loopback/AnalogInput" Height="[float]24" Id="5" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" IsReadOnly="[bool]True" Label="[UIModel]6" Left="[float]286" MinHeight="[float]24" TabIndex="[int]2" Top="[float]103" UnitAnnotation="[string]A" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" />
+			<Label Height="[float]16" Id="6" LabelOwner="[UIModel]5" Left="[float]286" TabIndex="[int]3" Text="[string]AnalogInput" Top="[float]83" Width="[float]66" xmlns="http://www.ni.com/PanelCommon" />
+			<ChannelNumericText Channel="[string]Aliases/Digital Loopback/DiscreteDigitalInput" Height="[float]24" Id="7" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" IsReadOnly="[bool]True" Label="[UIModel]9" Left="[float]286" MinHeight="[float]24" TabIndex="[int]4" Top="[float]155" UnitAnnotation="[string]" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" />
+			<Label Height="[float]16" Id="9" LabelOwner="[UIModel]7" Left="[float]286" TabIndex="[int]5" Text="[string]DiscreteDigitalInput" Top="[float]135" Width="[float]106" xmlns="http://www.ni.com/PanelCommon" />
+			<ChannelNumericText Channel="[string]Aliases/Digital Loopback/DiscreteDigitalOutput" Height="[float]24" Id="11" Label="[UIModel]12" Left="[float]152" MinHeight="[float]24" TabIndex="[int]7" Top="[float]155" UnitAnnotation="[string]" Value="[double]1" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" />
+			<Label Height="[float]16" Id="12" LabelOwner="[UIModel]11" Left="[float]152" TabIndex="[int]7" Text="[string]DiscreteDigitalOutput" Top="[float]135" Width="[float]115" xmlns="http://www.ni.com/PanelCommon" />
+		</ScreenSurface>
 	</Screen>
 </SourceFile>
